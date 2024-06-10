@@ -1,6 +1,6 @@
 # Banking-Management-System
 
-This is a Banking Management System built using the concepts of Object Oriented Programming &amp; Data Structures. 
+This is a Banking Management System built using the concepts of Object Oriented Programming and Data Structures. 
 The following data structures have been implemented in this project; LinkedList, Queues.
 
 The following programming templates have been used to create the program:
