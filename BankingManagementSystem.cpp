@@ -392,7 +392,7 @@ struct newAccountNode
 	string lastName;
 	string accountStatus;
 	long long phoneNumber;
-	long long CNIC;
+	long long ADHARCARDNUMBER;
 	long double cash;
 	string emailAddress;
 	address homeAddress;
@@ -436,8 +436,8 @@ public:
 		temp->homeAddress.setAddress();
 		cout << "\t\t\t\t Kindly write down your Phone Number -> ";
 		cin >> temp->phoneNumber;
-		cout << "\t\t\t\t Kindly write down your CNIC -> ";
-		cin >> temp->CNIC;
+		cout << "\t\t\t\t Kindly write down your ADHARCARDNUMBER -> ";
+		cin >> temp->ADHARCARDNUMBER;
 		cout << "\t\t\t\t Do you want to get a Debit Card: write Yes(1) or No(0)-> ";
 		cin >> debitCardOpt;
 
@@ -501,7 +501,7 @@ public:
 		cout << "\t\t\t\tFirst Name: " << temp->firstName << endl;
 		cout << "\t\t\t\tLast Name: " << temp->lastName << endl;
 		cout << "\t\t\t\tEmail Address: " << temp->emailAddress << endl;
-		cout << "\t\t\t\tCNIC: " << temp->CNIC << endl;
+		cout << "\t\t\t\tADHARCARDNUMBER: " << temp->ADHARCARDNUMBER << endl;
 		cout << "\t\t\t\tPhone#: " << temp->phoneNumber << endl;
 		cout << "\t\t\t\t ---Address--- " << endl;
 		temp->homeAddress.displayAddress();
@@ -573,7 +573,7 @@ public:
 				cout << "\t\t\t\t----------" << endl;
 				cout << "\t\t\t\tFirst Name: " << temp->firstName << endl;
 				cout << "\t\t\t\tLast Name: " << temp->lastName << endl;
-				cout << "\t\t\t\tCNIC: " << temp->CNIC << endl;
+				cout << "\t\t\t\tADHARCARDNUMBER: " << temp->ADHARCARDNUMBER << endl;
 				cout << "\t\t\t\t ---Address--- " << endl;
 				temp->homeAddress.displayAddress();
 				cout << "\t\t\t\t -------------" << endl;
@@ -609,7 +609,7 @@ public:
 				cout << "\t\t\t\t----------" << endl;
 				cout << "\t\t\t\tFirst Name: " << temp->firstName << endl;
 				cout << "\t\t\t\tLast Name: " << temp->lastName << endl;
-				cout << "\t\t\t\tCNIC: " << temp->CNIC << endl;
+				cout << "\t\t\t\tADHARCARDNUMBER: " << temp->ADHARCARDNUMBER << endl;
 				cout << "\t\t\t\t ---Address--- " << endl;
 				temp->homeAddress.displayAddress();
 				cout << "\t\t\t\t -------------" << endl;
@@ -857,7 +857,7 @@ public:
 			cout << "\t\t\t\tFirst Name: " << accountDisplay->firstName << endl;
 			cout << "\t\t\t\tLast Name: " << accountDisplay->lastName << endl;
 			cout << "\t\t\t\tEmail Address: " << accountDisplay->emailAddress << endl;
-			cout << "\t\t\t\tCNIC: " << accountDisplay->CNIC << endl;
+			cout << "\t\t\t\tADHARCARDNUMBER: " << accountDisplay->ADHARCARDNUMBER << endl;
 			cout << "\t\t\t\tPhone#: " << accountDisplay->phoneNumber << endl;
 			cout << "\t\t\t\tCash: " << accountDisplay->cash << endl;
 			cout << "\t\t\t\t ---Address--- " << endl;
@@ -896,7 +896,7 @@ public:
 			cout << "\t\t\t\tFirst Name: " << temp->firstName << endl;
 			cout << "\t\t\t\tLast Name: " << temp->lastName << endl;
 			cout << "\t\t\t\tEmail Address: " << temp->emailAddress << endl;
-			cout << "\t\t\t\tCNIC: " << temp->CNIC << endl;
+			cout << "\t\t\t\tADHARCARDNUMBER: " << temp->ADHARCARDNUMBER << endl;
 			cout << "\t\t\t\tPhone#: " << temp->phoneNumber << endl;
 			cout << "\t\t\t\t ---Address--- " << endl;
 			temp->homeAddress.displayAddress();
